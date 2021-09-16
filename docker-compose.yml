@@ -1,0 +1,87 @@
+version: "3.8"
+services:
+  discord:
+    build:
+      context: ./discord/
+      dockerfile: Dockerfile
+    restart: always
+    depends_on:
+      - api_nlp
+      - phase2
+    ports:
+      - "5001:5001"
+    # pas sur que necessaire
+    networks:
+      - monreseau
+
+  api_nlp:
+    build:
+      context: ./NLP/
+      dockerfile: Dockerfile
+    restart: always
+    depends_on:
+      - mongodb
+    ports:
+      - "5000"
+    networks:
+      - monreseau
+    #https://domopi.eu/gestion-sauvegarde-et-mise-a-jour-de-vos-conteneurs-docker/
+
+  phase2:
+    build:
+      context: ./phase_2/
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "5002"
+    networks:
+      - monreseau
+
+  messenger:
+    build:
+      context: ./messenger/
+      dockerfile: Dockerfile
+    restart: always
+    depends_on:
+      - api_nlp
+      - phase2
+    ports:
+      - "5005:5005"
+    networks:
+      - monreseau
+
+
+  mongodb:
+    image: mongo
+    restart: always
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=
+      - MONGO_INITDB_ROOT_PASSWORD=
+    ports:
+      - "27017"
+    volumes:
+      - db-data:/data/db
+    networks:
+      - monreseau
+
+  mongo-express:
+    image: mongo-express
+    restart: always
+    ports:
+      - "8081:8081"
+    depends_on:
+      - mongodb
+    environment:
+      - ME_CONFIG_MONGODB_ADMINUSERNAME=
+      - ME_CONFIG_MONGODB_ADMINPASSWORD=
+      - ME_CONFIG_MONGODB_SERVER=mongodb
+    networks:
+      - monreseau
+volumes:
+  db-data:
+    driver: local
+networks:
+  monreseau:
+
+
+

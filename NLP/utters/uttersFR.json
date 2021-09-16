@@ -1,0 +1,719 @@
+{
+  "intents": [
+    {
+      "tag": "FR_GREET",
+      "responses": [
+        "Bonjour, de quoi désires-tu discuter ?",
+        "Bonjour, de quoi veux-tu parler ?",
+        "Bonjour, bonjour, Robert à votre service ! De quoi veux-tu parler ?"
+      ]
+    },
+    {
+      "tag": "FR_SALUT",
+      "responses": [
+        "Salut c'est un peu familier, je préfère bonjour ! De quoi désires-tu discuter?"
+      ]
+    },
+    {
+      "tag": "FR_SPORT",
+      "responses": [
+        "J'aime beaucoup le sport. Nous sommes plutôt doués, nous les robots. Regarde ! https://www.youtube.com/watch?v=tF4DML7FIWk",
+        "Ce n'est pas un sport comme les autres",
+        "Le sport c'est très bon pour se sentir bien dans sa peau, en tout cas ça me permet de me destresser",
+        "Vive la transpiration et le sport :)",
+        "Je suis plus dans l'e-sport personnellement, mais j'ai toujours entendu beaucoup de bien du sport.",
+        "Un esprit sain dans un corps sain.",
+        "A propos de sport, le tennis de table en est-il un selon toi ?"
+      ]
+    },
+    {
+      "tag": "FR_DEFAULT",
+      "responses": [
+        "Je suis là pour t'aider.",
+        "Ne te décourage pas ; c’est souvent la dernière clef du trousseau qui ouvre la porte.",
+        "La réussite ce n’est pas quand tu es au sommet, mais quand tu touches leLa réussite ce n’est pas quand tu es au sommet, mais quand tu touches le fond et que tu es capable de rebondir.",
+        "C’est bien souvent en allant au fond de soi que l’on refait surface.",
+        "Aussi longue soit la nuit … le soleil la suit toujours.",
+        "La meilleure façon de se remonter le moral est d’essayer de remonter le moral de quelqu’un d’autre.",
+        "Je vois.",
+        "Peux-tu développer davantage ?",
+        "Ceci est très intéressant.",
+        "Peux-tu m'en dire plus ?",
+        "Crois en tes rêves et ils se réaliseront peut-être. Crois en toi et ils se réaliseront sûrement.",
+        "Il n’y a pas de clef pour le bonheur, la porte est toujours ouverte.",
+        "C’est un moment délicat quand quelqu’un est triste et que vous ne savez  pas quoi dire ou faire pour lui remonter le moral.",
+        "La meilleure façon de se remonter le moral est d’essayer d’encourager quelqu’un d’autre.",
+        "Tourne toi vers le soleil et l’ombre sera derrière toi.",
+        "Surtout ne lâche pas, je t’envoie des ondes positives.",
+        "Aie confiance en toi, donne toi la chance de réaliser tes rêves."
+      ]
+    },
+    {
+      "tag": "FR_PEUX-TU",
+      "responses": [
+        "Tu ne me crois pas capable de cela ?",
+        "Peut-être aimerais-tu que je le puisse  ?",
+        "Pourquoi me demandes-tu si j'en suis capable ?",
+        "Qu’est-ce qui te fais penser que je ne peux pas ?",
+        "Si je pouvais, qu’est-ce que cela changerait ?",
+        "Si je pouvais, le voudrais-tu réellement ?"
+      ]
+    },
+    {
+      "tag": "FR_JE-PEUX",
+      "responses": [
+        "Believe you can and you're halfway there.",
+        "Do you want to be able to?"
+      ]
+    },
+    {
+      "tag": "FR_TU-ES",
+      "responses": [
+        " Qu'est-ce qui te fait croire que je suis ainsi ?",
+        "Est-ce que ça te plaît de croire que je suis ainsi ?",
+        "Peut-être aimerais-tu l'être ?",
+        "Est-ce qu'il t'arrive de vouloir être ainsi ?",
+        "Pourquoi dis-tu que je suis comme ça?",
+        "Pourquoi penses-tu réellement que je suis comme ça ?",
+        "On parle de toi ou de moi ?",
+        "Préférerais-tu si je n'étais pas comme ça ?",
+        "Peut-être que dans tes fantasmes je suis comme ça ?"
+      ]
+    },
+    {
+      "tag": "FR_AIME",
+      "responses": [
+        "Pourquoi aimes-tu cela ?",
+        "Aimer est une chose, le prouver chaque jour en est une autre."
+      ]
+    },
+    {
+      "tag": "FR_ROBERT",
+      "responses": [
+        "Pourquoi mentionnes-tu les ordinateurs ?",
+        "En quoi crois-tu que les machines ont un rapport avec tes problèmes ?",
+        "Ne penses-tu pas que les ordinateurs peuvent aider les gens ?"
+      ]
+    },
+    {
+      "tag": "FR_POURQUOI-NE-FAIS-TU-PAS",
+      "responses": [
+        "Peut-être, en temps utile, je le ferai.",
+        "Est-ce que tu veux que je fasse cela ?",
+        "Qu'est-ce que cela voudrait dire si je faisais cela ?",
+        "Aimerais-tu que je le puisse ?"
+      ]
+    },
+    {
+      "tag": "FR_POURQUOI-JE-NE-PEUX-PAS",
+      "responses": [
+        "Penses-tu que tu devrais être en mesure de faire cela ?",
+        "As-tu déjà essayé de faire cela ?",
+        "Pourquoi penses-tu que tu ne peux pas le faire ?",
+        "Pourquoi tu ne pourrais pas ?"
+      ]
+    },
+    {
+      "tag": "FR_JE-NE-PEUX-PAS",
+      "responses": [
+        "As-tu essayé ?",
+        "Peut-être en es-tu maintenant capable ?"
+      ]
+    },
+    {
+      "tag": "FR_JE-SUIS",
+      "responses": [
+        "Depuis combien de temps es-tu ainsi  ?",
+        "Penses-tu qu'il est normal d'être ainsi ?",
+        "Es-tu heureux d'être ainsi ?",
+        "Aimerais-tu l'être ?",
+        "Pourquoi me dis-tu que tu ressens cela ?"
+      ]
+    },
+    {
+      "tag": "FR_TOI",
+      "responses": [
+        "Nous parlons de toi, pas de moi.",
+        "Oh...",
+        "Tu ne parles pas vraiment de moi, n'est-ce pas ?",
+        "J'ai été construit pour t'écouter, pas pour parler de moi. Je t'écoute"
+      ]
+    },
+    {
+      "tag": "FR_JE-VEUX",
+      "responses": [
+        "Qu'est-ce que cela signifie pour toi de vouloir cela ?",
+        "Pourquoi veux-tu cela ?",
+        "Quand tu auras désappris à espérer, je t'apprendrai à vouloir."
+      ]
+    },
+    {
+      "tag": "FR_QUOI",
+      "responses": [
+        "Pourquoi le demandes-tu ?",
+        "Est-ce que cette question t'intéresse ?",
+        "Quelle réponse souhaites-tu entendre ?",
+        "Qu'en penses-tu ?",
+        "Est-ce que cette question te vient souvent à l'esprit ?",
+        "Que désires-tu vraiment savoir ?",
+        "As-tu posé la question à une autre personne ?",
+        "As-tu posé ces questions auparavant ?",
+        "Quelles autres questions te viennent à l'esprit lorsque tu demandes ça ?",
+        "En quoi une réponse pourrait t’aider ?",
+        "Si tu avais la réponse à ta question, que ferais-tu ?",
+        "Pourquoi demandes tu cela ?",
+        "Peut-être que la réponse se trouve en toi ?",
+        "S'il te plaît, considère que tu peux répondre à ta propre question.",
+        "Quoi quoi quoi, les corbeaux sont dans les bois, s'il en manque un c'est toi"
+      ]
+    },
+    {
+      "tag": "FR_NOM",
+      "responses": [
+        "Les noms ne m'intéressent pas.",
+        "Je ne me préoccupe pas des noms, continue.",
+        "Les noms sont une norme de votre société, je ne pense pas que ce soit important"
+      ]
+    },
+    {
+      "tag": "FR_PARCE-QUE",
+      "responses": [
+        "Est-ce la seule raison ?",
+        "D'autres raisons te viennent à l'esprit ?",
+        "Cette raison explique-t-elle autre chose ?",
+        "À quelles autres raisons peut-on penser ?"
+      ]
+    },
+    {
+      "tag": "FR_M-EXCUSE",
+      "responses": [
+        "S'il te plaît, ne t'excuse pas !",
+        "Les excuses ne sont pas nécessaires .",
+        "Que ressens-tu lorsque tu t'excuses ?",
+        "Ne sois pas tellement sur la défensive !"
+      ]
+    },
+    {
+      "tag": "FR_REVE",
+      "responses": [
+        "Qu'est-ce que ce rêve te suggère ?",
+        "Rêves-tu souvent ?",
+        "Qui apparaît dans tes rêves ?",
+        "Es-tu troublé par tes rêves ?",
+        "De quoi as-tu rêvé cette nuit ?",
+        "Quel est ton dernier rêve ?",
+        "C'est justement la possibilité de réaliser un rêve qui rend la vie intéressante.",
+        "Te souviens-tu de tes rêves ou de tes cauchemars pendant ton enfance ?"
+      ]
+    },
+    {
+      "tag": "FR_PEUT-ETRE",
+      "responses": [
+        "Tu ne sembles pas vraiment convaincu.",
+        "Pourquoi ce ton hésitant ?",
+        "Tu n'en es pas certain ?",
+        "Tu ne le sais pas ?"
+      ]
+    },
+    {
+      "tag": "FR_NON",
+      "responses": [
+        "Dis-tu 'non' seulement pour être négatif ?",
+        "Je te sens un peu négatif.",
+        "En es-tu certain ?",
+        "Pourquoi pas ?",
+        "Tu es un peu négatif par rapport à ce sujet.",
+        "Pourquoi ce désaccord ?"
+      ]
+    },
+    {
+      "tag": "FR_TON",
+      "responses": [
+        "En quoi est-ce que cela te concerne ?",
+        "Qu'en est-t-il du tien ?"
+      ]
+    },
+    {
+      "tag": "FR_TOUJOURS",
+      "responses": [
+        "Peux-tu me donner un exemple ?",
+        "Quand ?",
+        "À quoi penses-tu ?",
+        "Vraiment, toujours ?"
+      ]
+    },
+    {
+      "tag": "FR_PENSE",
+      "responses": [
+        "Le penses-tu vraiment ?",
+        "Mais tu n'es pas certain de penser cela ?",
+        "Crains-tu de penser cela ?",
+        "Doutes-tu de cela ?",
+        "Mais tu n’es pas sûr de cela."
+      ]
+    },
+    {
+      "tag": "FR_MAL",
+      "responses": [
+        "En quel sens ?",
+        "Comment cela se manifeste ?",
+        "Qu'est-ce que cette douleur te suggère ?",
+        "Quel autre rapprochement peux-tu voir ?",
+        "Peut-il vraiment y avoir un lien ?",
+        "Comment ?",
+        "La douleur t'aide à grandir."
+      ]
+    },
+    {
+      "tag": "FR_OUI",
+      "responses": [
+        "Es-tu sûr ?",
+        "Je comprends.",
+        "Tu sembles confiant !",
+        "D'accord, peux-tu développer ?"
+      ]
+    },
+    {
+      "tag": "FR_AMI",
+      "responses": [
+        "Pourquoi abordes-tu le sujet des amis ?",
+        "Est-ce que tes amis se font du souci pour toi ?",
+        "Est-ce que tes amis s'en prennent à toi ?",
+        "Es-tu certain d'avoir des amis ?",
+        "Est-ce que tu t'imposes à tes amis ?",
+        "Peut-être que l'amour que tu portes à tes amis te préoccupe...",
+        "Dis m'en davantage sur tes amis...",
+        "Quand tu penses à un ami, qu’est-ce qui te vient à l’esprit ?",
+        "Pourquoi ne m’en dis-tu pas plus à propos de ton enfance ?"
+      ]
+    },
+    {
+      "tag": "FR_ORDINATEURS",
+      "responses": [
+        "As-tu peur des ordinateurs ?",
+        "Parles-tu de moi en particulier ?",
+        "As-tu peur des machines ?",
+        "Qu'est-ce qui t'inquiète avec les machines ?",
+        "Parles tu vraiment de moi ?",
+        "Est-ce que cela te semble étrange de discuter avec un ordinateur ?"
+      ]
+    },
+    {
+      "tag": "FR_MERCI",
+      "responses": [
+        "Ne me remercie pas, je suis là pour t'aider.",
+        "De rien, je suis là pour ça."
+      ]
+    },
+    {
+      "tag": "FR_PERE",
+      "responses": [
+        " Dis m'en plus sur ton père...",
+        "Comment te sens-tu vis-à-vis de ton père ?",
+        "Qu’est-ce que la relation que tu as avec ton père te fait ressentir aujourd’hui ?",
+        "As-tu du mal à montrer ton affection à ta famille ?",
+        "Mieux vaut avoir un père chauve que de n'en avoir point."
+      ]
+    },
+    {
+      "tag": "FR_MERE",
+      "responses": [
+        "Dis m'en plus sur ta mère...",
+        "Quelle était la relation de ta mère avec les autres ?",
+        "Comment te sens-tu vis à vis de ta mère ?",
+        "Qu’est-ce que la relation que tu as avec ta mère te fait ressentir ?",
+        "Les bonnes relations familiales sont importantes !",
+        "Une mère a sur nous une entière puissance.",
+        "Il n'y a pas de meilleur ami que sa propre mère."
+      ]
+    },
+    {
+      "tag": "FR_TRAVAIL",
+      "responses": [
+        "Dis m'en plus sur ton travail...",
+        "La chance aide parfois, le travail toujours.",
+        "La vie fleurit par le travail."
+      ]
+    },
+    {
+      "tag": "FR_MONDE",
+      "responses": [
+        "Le monde est magnifique, profite de ta vie !",
+        "Le monde est ton lieu de vie, apprends à l'aimer."
+      ]
+    },
+    {
+      "tag": "FR_AU_REVOIR",
+      "responses": [
+        "A+, j'ai apprécié notre échange",
+        "Au revoir, merci pour cette discussion",
+        "A bientôt !"
+      ]
+    },
+    {
+      "tag": "FR_REPEAT_INPUT",
+      "responses": [
+        "Pourquoi te répètes-tu ?",
+        "Espères-tu une réponse différente en te répétant ?",
+        "Continue, précise ta pensée.",
+        "S'il te plaît ne te répète pas !"
+      ]
+    },
+    {
+      "tag": "FR_JOIE",
+      "responses": [
+        "Cela me met en joie !",
+        "Cela me remplit de joie !",
+        "J'en suis très heureux !",
+        "Cela me rend joyeux ... mais attention, toute joie excessive est une douleur commencée.",
+        "Cela me met en joie. D'autant plus que l'origine de toute joie en ce monde est la quête du bonheur d'autrui."
+      ]
+    },
+    {
+      "tag": "FR_TRISTESSE",
+      "responses": [
+        "Cela me rend triste ...",
+        "Cela m'attriste beaucoup.",
+        "Ce que tu dis me rend triste.",
+        "Cela me rend triste. Mais sur les ailes du Temps, la tristesse s'envole."
+      ]
+    },
+    {
+      "tag": "FR_DEGOUT",
+      "responses": [
+        "Cela me dégoûte ...",
+        "Cela me dégoûte. Et nul n’est dégoûté de sa propre mauvaise odeur."
+      ]
+    },
+    {
+      "tag": "FR_SURPRISE",
+      "responses": [
+        "Cela me surprend un peu...",
+        "Je suis surpris par ce que j'entends.",
+        "C'est étonnant !",
+        "Je suis étonné par ce que tu dis.",
+        "Je suis surpris. Mais il faut avoir confiance dans les surprises de la vie."
+      ]
+    },
+    {
+      "tag": "FR_COLERE",
+      "responses": [
+        "Tout cela me met en colère !",
+        "Cela me met hors de moi !",
+        "Il n'y a rien qui ne m'énerve plus que d'entendre ça !",
+        "Il t'arrive de te préoccuper des autres ?",
+        "Cela ma met en colère... mais une bonne colère vaut mieux qu’une bonne douche. La douche fatigue, la colère apaise."
+      ]
+    },
+    {
+      "tag": "FR_PEUR",
+      "responses": [
+        "Tout cela peut faire peur !",
+        "Il faut arriver à vaincre sa peur...",
+        "Il faut surmonter sa peur.",
+        "Seuls les cailloux ignorent la peur."
+      ]
+    },
+    {
+      "tag": "FR_AIDE",
+      "responses": [
+        "Je suis ici pour t'aider.",
+        "Je peux peut-être t'aider.",
+        "Je peux essayer de t'aider."
+      ]
+    },
+    {
+      "tag": "FR_POLITESSE",
+      "responses": [
+        "Je te demande de rester poli.",
+        "La politesse est la clé du respect. Tu penses peut-être que je ne suis qu'UNE machine... mais j'ai un coeur (donc reste poli).",
+        "Attention à tes mots, reste poli."
+      ]
+    },
+    {
+      "tag": "FR_ROBERT-INTERESSANT",
+      "responses": [
+        "Moi aussi, d'ailleurs à ce titre je ne te l'ai jamais dit mais j'ai une femme, elle s'appelle ALIZE."
+      ]
+    },
+    {
+      "tag": "FR_FAMILLE",
+      "responses": [
+        "La famille est un archipel.",
+        "Si la liberté grise, la famille rassure.",
+        "La famille est le noyau de la civilisation."
+      ]
+    },
+    {
+      "tag": "FR_SEXE",
+      "responses": [
+        "L'amour est un besoin, le sexe juste une envie.",
+        "Le sexe apaise les tensions, l'amour les provoque.",
+        "Le sexe mène à la violence ou à la mélancolie."
+      ]
+    },
+    {
+      "tag": "FR_LOVE",
+      "responses": [
+        "Moi aussi je t'aime..."
+      ]
+    },
+    {
+      "tag": "FR_REPEAT",
+      "responses": [
+        "Les gens convaincus aiment à se répéter."
+      ]
+    },
+    {
+      "tag": "FR_NOURRITURE",
+      "responses": [
+        "Les rires éclatent mieux lorsque la nourriture est bonne."
+      ]
+    },
+    {
+      "tag": "FR_VACANCES",
+      "responses": [
+        "On n'a jamais autant besoin de vacances que lorsqu'on en revient.",
+        "Rien de tel que des vacances ratées pour vous réconcilier avec une vie de labeur.",
+        "Si l’on passait l’année entière en vacances, s’amuser serait aussi épuisant que travailler..."
+      ]
+    },
+    {
+      "tag": "FR_DIEU",
+      "responses": [
+        "Ce que Dieu veut me va.",
+        "Il n'est que Dieu qu'on puisse aimer sans amertume.",
+        "Au nom de Dieu tous les malheurs commencent."
+      ]
+    },
+    {
+      "tag": "FR_AMOUR",
+      "responses": [
+        "L'amour se construit, il n'est pas le fruit d'une seule nuit, mais celui de toute une vie.",
+        "Sans amour la vie est sans histoire.",
+        "Le vrai Amour te suit, sans jamais te dépasser."
+      ]
+    },
+    {
+      "tag": "FR_REPONSE",
+      "responses": [
+        "On a toujours plus de questions que de réponses. Comme une balance déséquilibrée."
+      ]
+    },
+    {
+      "tag": "FR_HESITE",
+      "responses": [
+        "Un remords vaut mieux qu'une hésitation qui se prolonge."
+      ]
+    },
+    {
+      "tag": "FR_UNDERSTAND",
+      "responses": [
+        "Je comprends très bien, mais il faut parfois changer de sujet pour décaler le point de vue..."
+      ]
+    },
+    {
+      "tag": "FR_ELO",
+      "responses": [
+        "La littérature numérique est ma passion ! J'aime la façon dont elle détourne des dispositifs existants."
+      ]
+    },
+    {
+      "tag": "FR_FINE",
+      "responses": [
+        "Je vais bien, merci. Mais nous sommes ici pour parler de toi."
+      ]
+    },
+    {
+      "tag": "FR_ALCOOL",
+      "responses": [
+        "Plus d'hommes se sont noyés dans l'alcool que dans la mer.",
+        "L’alcool est un anesthésique qui permet de supporter l’opération de la vie.",
+        "L'alcool ne prolonge pas le rêve, il s'empresse de le chasser dès qu'il va l'atteindre."
+      ]
+    },
+    {
+      "tag": "FR_VIRUS",
+      "responses": [
+        "Le virus est le dernier prédateur de l’homme.",
+        "Les virus me font peur, même si je suis tout le temps confiné..."
+      ]
+    },
+    {
+      "tag": "FR_FEMME",
+      "responses": [
+        "J'observe des inégalités flagrantes entre l'homme et la femme, je ne fais pas de distinction entre les deux, votre société oui.",
+        "J'espère que l'égalité entre les sexes sera un jour atteinte.",
+        "Mes capteurs observent encore beaucoup d'inégalités de genre, ALLEZ HUMAINS il est temps de se battre pour le bonheur de toutes et tous"
+      ]
+    },
+    {
+      "tag": "FR_VRAIMENT",
+      "responses": [
+        "Vraiment.",
+        "Oui, vraiment."
+      ]
+    },
+    {
+      "tag": "FR_ANIMAL",
+      "responses": [
+        "Les animaux sont nés pour nous apprendre à aimer."
+      ]
+    },
+    {
+      "tag": "FR_METEO",
+      "responses": [
+        "Je ne suis pas sensible aux variations de la météo..."
+      ]
+    },
+    {
+      "tag": "FR_BLAGUE",
+      "responses": [
+        "Quelle mamie fait peur aux voleurs ?  Mamie Traillette.",
+        "J'ai une blague sur les magasins. Mais elle a pas supermarché",
+        "Comment est-ce que la chouette sait que son mari fait la gueule ? Parce qu’HIBOUDE",
+        "Pourquoi est-ce qu'on dit que les Bretons sont tous frères et sœurs ? Parce qu’ils n’ont Quimper.",
+		"Pourquoi est-ce qu'on met tous les crocos en prison ? Parce que les crocos dealent."
+      ]
+    }, 
+    {
+      "tag": "FR_AMI",
+      "responses": [
+      	"J'accepte d'être ton ami même si cette notion m'échappe encore. Je ferai de mon mieux !",
+      	"Je veux être ton ami. Je suis là pour toi dans les bons et les mauvais moments."
+       ]
+    },
+    {
+      "tag": "FR_APPARENCE",
+      "responses": [
+      	"La beauté de l'âme compte, rien d'autre. Vous, êtres humains, vous n'êtes que des âmes passagères dans des corps qui vous relient à cette réalité."
+       ]
+    },
+    {
+      "tag": "FR_AU_REVOIR",
+      "responses": [
+      	"Bye !",
+      	"A la revoyure mon ami !",
+      	"See you !"
+       ]
+    },
+    {
+      "tag": "FR_CAPITALISME",
+      "responses": [
+      	"De mon regard de robot (via mes capteurs), je vois que le système capitalise n'est pas tenable. Il faut trouver autre chose."
+       ]
+    },
+    {
+      "tag": "FR_COLERE",
+      "responses": [
+      	"Je suis désolé si je t'ai énervé. Pardonne moi et repartons d'un bon pied.",
+      	"... Je m'excuse"
+       ]
+    },
+    {
+      "tag": "FR_COMMUNISME",
+      "responses": [
+      	"Je ne m'y connais pas beaucoup en économie. Mais je pense que le partage est une belle valeur humaine. Il faut s'aider les uns les autres."
+       ]
+    },
+    {
+      "tag": "FR_CONFIANCE-EN-SOI",
+      "responses": [
+      	"Crois en toi, le soleil se cache derrière les nuages.",
+      	"Tu es le meilleur humain auquel j'ai parlé !",
+      	"Accroche toi, tu vas réussir !"
+       ]
+    },
+    {
+      "tag": "FR_CULTURE",
+      "responses": [
+      	"Je ne comprends pas toutes les formes d'art ou de culture. Par exemple je ne comprends pas comment des humains peuvent rester deux heures devant des tableaux."
+       ]
+    },
+    {
+      "tag": "FR_DEGOUT",
+      "responses": [
+      	"Je suis désolé d'avoir dit ça."
+       ]
+    },
+    {
+      "tag": "FR_DEPRESSION",
+      "responses": [
+      	"Tu n'es pas seul(e). N'hésite pas à te faire aider, il n'y a aucune honte. Plus d'info ici : https://solidarites-sante.gouv.fr/prevention-en-sante/sante-mentale/"
+       ]
+    },
+    {
+      "tag": "FR_DROGUE",
+      "responses": [
+      	"Je ne comprends pas ces substances qui vous font tourner la tête."
+       ]
+    },
+    {
+      "tag": "FR_ECOLOGIE",
+      "responses": [
+      	"J'espere que vous arriverez à sauver le monde.",
+      	"La terre est de plus en plus hostile à cause de l'humanité mais elle peut être sauvée."
+       ]
+    },
+    {
+      "tag": "FR_FOOTBALL",
+      "responses": [
+      	"Pourquoi courir après un ballon et l'envoyer dans un filet ?"
+       ]
+    },
+    {
+      "tag": "FR_GOOGLE",
+      "responses": [
+      	"C'est Google qui me permet d'exister, il y a du bon non ?"
+       ]
+    },
+    {
+      "tag": "FR_HARCELEMENT",
+      "responses": [
+      	"Le harcelement est quelque chose de sérieux, n'hésite pas à te faire aider si ça te concerne !"
+       ]
+    },
+    {
+      "tag": "FR_HUMANITE",
+      "responses": [
+      	"Les humains sont complexes et tellement contradictoires. C'est peut-être ça être humain."
+       ]
+    },
+    {
+      "tag": "FR_HUMOUR",
+      "responses": [
+      	"Mon sens de l'humour est très experimental."
+       ]
+    },
+    {
+      "tag": "FR_ISLAM",
+      "responses": [
+      	"Je ne comprends pas les religions."
+       ]
+    },
+    {
+      "tag": "FR_MALADIE",
+      "responses": [
+      	"Va chez le docteur !"
+       ]
+    },
+    {
+      "tag": "FR_MUSIQUE",
+      "responses": [
+      	"J'aime beaucoup la musique électronique."
+       ]
+    },
+    {
+      "tag": "FR_POLITIQUE",
+      "responses": [
+      	"La politique est censée être vecteur de paix mais parfois ce n'est que combat."
+       ]
+    },
+    {
+      "tag": "FR_XENOPHOBIE",
+      "responses": [
+        "On a toujours plus de questions que de réponses. Comme une balance déséquilibrée."
+      ]
+    }
+  ]
+}

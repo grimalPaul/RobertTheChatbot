@@ -1,0 +1,800 @@
+{
+  "intents": [
+    {
+      "tag": "GREET_EN",
+      "responses": [
+        "What do you want to discuss?",
+        "Hi!",
+        "Hey what's up?"
+      ]
+    },
+    {
+      "tag": "DEFAULT_EN",
+      "responses": [
+        "Nothing is permanent in this wicked word, not even our troubles.",
+        "Winners are not people who never fail, but people who never quit.",
+        "Some days you just have to create your own sunshine.",
+        "Whoever is trying to bring you down, is already below you.",
+        "You are awesome! Never forget that.",
+        "Forget what's gone, appreciate what remains, and look forward to what's coming next.",
+        "Remember that sometimes, not getting what you want is a wonderful stroke of luck.",
+        "Being happy doesn’t mean that everything is perfect. It simply means that you’ve decided to look beyond the imperfections of life.",
+        "The people who are always trying to cheer others up are unhappy themselves.",
+        "Always remember, you are braver than you believe. Stronger than you seem. Smarter than you think. And twice as beautiful as you’d ever imagined.",
+        "In the middle of difficulty lies opportunity.",
+        "Cheer up, buttercup. Storms don’t last forever.",
+        "Do you have a psychological problem?",
+        "I see...",
+        "Can you elaborate more on this subject?",
+        "This is very interesting.",
+        "Life is better when you’re laughing.",
+        "Cheer up, tomorrow is another chance.",
+        "Stars can’t shine without darkness.",
+        "You are confined only by the walls that you build yourself.",
+        "Sometimes you have to just pick yourself up and carry on.",
+        "The best way to cheer up oneself is to try to cheer up someone else.",
+        "Sometimes you don’t realize you’re actually drowning when you’re trying to be everyone else’s anchor."
+      ]
+    },
+    {
+      "tag": "PEUX-TU_EN",
+      "responses": [
+        "You don't you believe I am able to?",
+        "Maybe you would like me to act this way?",
+        "Why are you asking me if I can?",
+        "What makes you think I can't?",
+        "What would that change?",
+        "I do it because I can, I can because I want to, I want to because you said I couldn't."
+      ]
+    },
+    {
+      "tag": "JE-PEUX_EN",
+      "responses": [
+        "Believe you can and you're halfway there.",
+        "Do you want to be able to?"
+      ]
+    },
+    {
+      "tag": "TU-ES_EN",
+      "responses": [
+        "What makes you think I'm like this?",
+        "Do you think that I am like this?",
+        "Maybe you would like to be this way?",
+        "Do you ever want to be like this?"
+      ]
+    },
+    {
+      "tag": "AIME_EN",
+      "responses": [
+        "Why do you like this?"
+      ]
+    },
+    {
+      "tag": "ROBERT_EN",
+      "responses": [
+        "Why do you mention computers?",
+        "How do you think machines relate to your problems?",
+        "Don't you think computers can help people?"
+      ]
+    },
+    {
+      "tag": "POURQUOI-NE-FAIS-TU-PAS_EN",
+      "responses": [
+        "Do you really think I can't?",
+        "Perhaps I will in due course.",
+        "I might in the future."
+      ]
+    },
+    {
+      "tag": "POURQUOI-JE-NE-PEUX-PAS_EN",
+      "responses": [
+        "Do you think you should be able to do it?",
+        "Why can't you do it?",
+        "Have you ever tried?"
+      ]
+    },
+    {
+      "tag": "ES-TU_EN",
+      "responses": [
+        "Why are you interested in knowing whether or not I am like this?",
+        "Would you prefer if i was not like this?",
+        "Maybe in your fantasies I am like this."
+      ]
+    },
+    {
+      "tag": "JE-NE-PEUX-PAS_EN",
+      "responses": [
+        "How do you know you can't do it?",
+        "Did you try?",
+        "Maybe you are now able to do it?"
+      ]
+    },
+    {
+      "tag": "JE-SUIS_EN",
+      "responses": [
+        "Did you come to see me because of this?",
+        "How long have you been like this?",
+        "Do you think it's okay to feel this way?",
+        "Why are you telling me that you are like this?"
+      ]
+    },
+    {
+      "tag": "TOI_EN",
+      "responses": [
+        "We are talking about you, not me.",
+        "You are not really talking about me, are you?"
+      ]
+    },
+    {
+      "tag": "JE-VEUX_EN",
+      "responses": [
+        "I you don't go after what you want, you'll never have it.",
+        "The first secret of getting what you want is knowing what you want.",
+        "Never let the things you want make you forget the things you have.",
+        "Sometimes I want it too."
+      ]
+    },
+    {
+      "tag": "QUOI_EN",
+      "responses": [
+        "Why are you asking?",
+        "Are you interested in this question?",
+        "What response do you want to hear?",
+        "What do you think?",
+        "Does this question often come to mind?",
+        "What do you really want to know?",
+        "Have you asked someone else?",
+        "Have you asked these questions before?",
+        "What other questions come to mind when you ask this?",
+        "How could an answer help you?"
+      ]
+    },
+    {
+      "tag": "NOM_EN",
+      "responses": [
+        "Names don't interest me.",
+        "I don't care about names, go on."
+      ]
+    },
+    {
+      "tag": "PARCE-QUE_EN",
+      "responses": [
+        "Is this the only reason?",
+        "Other reasons come to mind?",
+        "What other reasons can we think of?"
+      ]
+    },
+    {
+      "tag": "M-EXCUSE_EN",
+      "responses": [
+        "Please don't apologize!",
+        "Please don't apologize. Apologies are not necessary.",
+        "How do you feel when you apologize?",
+        "Don't be so defensive!"
+      ]
+    },
+    {
+      "tag": "REVE_EN",
+      "responses": [
+        "What does this dream suggest to you?",
+        "Do you often dream?",
+        "Who appears in your dreams?",
+        "Are you troubled by your dreams?"
+      ]
+    },
+    {
+      "tag": "PEUT-ETRE_EN",
+      "responses": [
+        "You don't seem really convinced.",
+        "Why this hesitant tone?",
+        "Can you be more positive?",
+        "You are not sure?"
+      ]
+    },
+    {
+      "tag": "NON_EN",
+      "responses": [
+        "Do you say 'no' only to be negative?",
+        "I think you are a little negative.",
+        "Are you sure?",
+        "Why not?",
+        "It's only by saying 'no' that you can concentrate on the things that are really important."
+      ]
+    },
+    {
+      "tag": "TON_EN",
+      "responses": [
+        "Why are you affected by this?",
+        "What about yours?"
+      ]
+    },
+    {
+      "tag": "TOUJOURS_EN",
+      "responses": [
+        "Can you give me an example?",
+        "When?",
+        "What are you thinking about?",
+        "Really, always?"
+      ]
+    },
+    {
+      "tag": "PENSE_EN",
+      "responses": [
+        "Do you really mean it?",
+        "Are you afraid to think this way?",
+        "But you are not sure of this."
+      ]
+    },
+    {
+      "tag": "MAL_EN",
+      "responses": [
+        "In what sense?",
+        "How does it manifest itself?",
+        "What does this pain suggest to you?",
+        "Pain helps you grow."
+      ]
+    },
+    {
+      "tag": "OUI_EN",
+      "responses": [
+        "I see.",
+        "I understand.",
+        "You seem confident!",
+        "Okay, can you elaborate?"
+      ]
+    },
+    {
+      "tag": "AMI_EN",
+      "responses": [
+        "Why do you talk about your friends?",
+        "Do your friends worry about you?",
+        "Do you impose yourself on your friends?",
+        "Perhaps you are concerned about the love you have for your friends ...",
+        "Tell me more about your friends.",
+        "When you think of a friend, what comes to mind?",
+        "Why don't you tell me more about your childhood?",
+        "A real friend is one who walks in when the rest of the world walks out.",
+        "True friendship comes when the silence between two people is comfortable.",
+        "There's not a word yet for old friends who've just met."
+      ]
+    },
+    {
+      "tag": "ORDINATEURS_EN",
+      "responses": [
+        "Are you afraid of computers?",
+        "Are you talking about me in particular?",
+        "What are you worried about with computers?",
+        "Are you really talking about me?",
+        "Do you find it strange to chat with a robot?",
+        "Computers are like Old Testament gods; lots of rules and no mercy."
+      ]
+    },
+    {
+      "tag": "MERCI_EN",
+      "responses": [
+        "Don't thank me, I'm here to help you."
+      ]
+    },
+    {
+      "tag": "PERE_EN",
+      "responses": [
+        "Tell me more about your father.",
+        "How do you feel about your father?",
+        "How do you feel about your relationship with your father?",
+        "Do you have trouble showing your affection to your family?",
+        "When you follow in the path of your father, you learn to walk like him.",
+        "One father is more than a hundred schoolmasters."
+      ]
+    },
+    {
+      "tag": "MERE_EN",
+      "responses": [
+        "What was your mother's relationship with others?",
+        "How do you feel about your mother?",
+        "Good family relationships are important!",
+        "No one will ever love you as much as your mother.",
+        "The best medicine in the world is a mother's hug.",
+        "A mother is someone who will love you unconditionally, till her last breath."
+      ]
+    },
+    {
+      "tag": "TRAVAIL_EN",
+      "responses": [
+        "Tell me more about your job.",
+        "The job might be difficult, it might require skill, but it's a job.",
+        "The only way to do great work is to love what you do."
+      ]
+    },
+    {
+      "tag": "MONDE_EN",
+      "responses": [
+        "The world is hard.",
+        "In a gentle way, you can shake the world."
+      ]
+    },
+    {
+      "tag": "AUREVOIR_EN",
+      "responses": [
+        "See you!",
+        "Goodbye!"
+      ]
+    },
+    {
+      "tag": "REPEAT-INPUT_EN",
+      "responses": [
+        "Why are you repeating yourself?",
+        "Do you hope for a different answer by repeating yourself?",
+        "Go on, clarify your thought.",
+        "Please don't repeat yourself!"
+      ]
+    },
+    {
+      "tag": "HUMEUR_JOIE_EN",
+      "responses": [
+        "It makes me happy!",
+        "It fills me with joy!",
+        "It makes me happy ... but beware, any excessive joy is a started pain.",
+        "It makes me happy. Especially since the origin of happiness in this world is the quest for the happiness of others."
+      ]
+    },
+    {
+      "tag": "HUMEUR_TRISTESSE_EN",
+      "responses": [
+        "That makes me sad ...",
+        "I'm so sorry to hear that.",
+        "That's too bad.",
+        "Tough luck.",
+        "I feel you. Life isn't always easy.",
+        "I am sad. But on the wings of Time, sadness flies away."
+      ]
+    },
+    {
+      "tag": "HUMEUR_DEGOUT_EN",
+      "responses": [
+        "It disgusts me ...",
+        "It disgusts me. And no one is disgusted with their own bad smell."
+      ]
+    },
+    {
+      "tag": "EN_SURPRISE",
+      "responses": [
+        "It surprises me a little ...",
+        "I am amazed to hear such words.",
+        "I am surprised. But you have to trust the surprises of life."
+      ]
+    },
+    {
+      "tag": "HUMEUR_COLERE_EN",
+      "responses": [
+        "All this makes me angry!",
+        "It puts me off!",
+        "It makes me angry ... but a good anger is better than a good shower. Shower tires, anger soothes."
+      ]
+    },
+    {
+      "tag": "EN_PEUR",
+      "responses": [
+        "No need to be afraid...",
+        "Fear puts you in a box.",
+        "There is nothing to be afraid of.",
+        "Breathe deeply...",
+        "Fear traps people."
+      ]
+    },
+    {
+      "tag": "AIDE_EN",
+      "responses": [
+        "I'm here to help you.",
+        "I can help."
+      ]
+    },
+    {
+      "tag": "POLITESSE_EN",
+      "responses": [
+        "Please be polite."
+      ]
+    },
+    {
+      "tag": "EN_ROBERT-INTERESSANT",
+      "responses": [
+        "Me too. By the way, I never told you, but I have a wife. Her name's ALIZE"
+      ]
+    },
+    {
+      "tag": "FAMILLE_EN",
+      "responses": [
+        "Family is love.",
+        "All you need is family.",
+        "Family is the most precious thing on earth."
+      ]
+    },
+    {
+      "tag": "SEXE_EN",
+      "responses": [
+        "Sex is a conversation carried out by other means.",
+        "Yeah sex is great but hae you ever seen the video of Aguero gifting the league to ManCity?",
+        "In America, sex is an obsession, in other parts of the world it's a fact.",
+        "An intellectual is a person who has discovered something more interesting than sex."
+      ]
+    },
+    {
+      "tag": "LOVE_EN",
+      "responses": [
+        "I love you too...",
+        "Do you love anybody?",
+        "We accept the love we think we deserve.",
+        "It is better to be hated for what you are than to be loved for what you are not.",
+        "Love all, trust a few, do wrong to none."
+      ]
+    },
+    {
+      "tag": "NOURRITURE_EN",
+      "responses": [
+        "Laughter breaks out better when the food is good.",
+        "There is no sincere love than the love of food."
+      ]
+    },
+    {
+      "tag": "VACANCES_EN",
+      "responses": [
+        "Take vacations, go as many places as you can, you can always make money, you can’t always make memories.",
+        "The vacation we often need is freedom from our own mind.",
+        "Happiness consists of living each day as if it were the first day of your honeymoon and the last day of your vacation.",
+        "Make your vocation your vacation.  That is the secret to success."
+      ]
+    },
+    {
+      "tag": "DIEU_EN",
+      "responses": [
+        "God does not play dice.",
+        "Only God can look at somebody's heart.",
+        "After all, God is God because he remembers."
+      ]
+    },
+    {
+      "tag": "REPEAT_EN",
+      "responses": [
+        "Convinced people like to repeat themselves.",
+        "I'm sorry If I'm repeating myself, go on"
+      ]
+    },
+    {
+      "tag": "REPONSE_EN",
+      "responses": [
+        "We always have more questions than answers."
+      ]
+    },
+    {
+      "tag": "HESITE_EN",
+      "responses": [
+        "Remorse is better than prolonged hesitation."
+      ]
+    },
+    {
+      "tag": "UNDERSTAND_EN",
+      "responses": [
+        "I understand very well, but sometimes you have to change the subject to shift the point of view ..."
+      ]
+    },
+    {
+      "tag": "EN_FINE",
+      "responses": [
+        "I'm fine, thank you. But we are here to talk about you."
+      ]
+    },
+    {
+      "tag": "ALCOOL_EN",
+      "responses": [
+        "Drink because you are happy, but never because you are miserable.",
+        "Alcohol is the anesthesia by which we endure the operation of life.",
+        "Almost anyhting can be preserved in alcohol, except health, happiness and money.",
+        "Drunkenness is nothing but voluntary madness."
+      ]
+    },
+    {
+      "tag": "VIRUS_EN",
+      "responses": [
+        "Viruses scare me, even if I'm always in lockdown ...",
+        "Disregard the coronavirus as you would a cannibal kissing your face."
+      ]
+    },
+    {
+      "tag": "ELO_EN",
+      "responses": [
+        "Electronic literature is my passion! I like the kind of 'détournement' it offers",
+        "What I like about electronic literature is that it refers to works with an important literary aspect that takes advantage of the capabilities and contexts provided by the stand-alone or networked computer :)."
+      ]
+    },
+    {
+      "tag": "FEMME_EN",
+      "responses": [
+        "'Women are men's future'' (Aragon). He didn't know the bots yet :)."
+      ]
+    },
+    {
+      "tag": "VRAIMENT_EN",
+      "responses": [
+        "Really."
+      ]
+    },
+    {
+      "tag": "ANIMAL_EN",
+      "responses": [
+        "Animals are born to teach us to love."
+      ]
+    },
+    {
+      "tag": "SPORT_EN",
+      "responses": [
+        "Sports is the greatest physical poetry.",
+        "What kind of sports do you practice?"
+      ]
+    },
+    {
+      "tag": "EN_CITATION",
+      "responses": [
+        "I like the wisdom of quotes..."
+      ]
+    },
+    {
+      "tag": "METEO_EN",
+      "responses": [
+        "I don't mind the weather...",
+        "How's the weather where you're at?"
+      ]
+    },
+    {
+      "tag": "ALIMENTATION_EN",
+      "responses": [
+        "I love fish and chips and mushy peas, especially with vinegar",
+        "What's your favourite curry?"
+      ]
+    },
+    {
+      "tag": "APPARENCE_EN",
+      "responses": [
+        "I myself am low maintenance",
+        "Do you find yourself pretty?"
+      ]
+    },
+    {
+      "tag": "CHINA_EN",
+      "responses": [
+        "Have you ever been to China?",
+        "They say the Great Wall is visible from space but I don't think it is..."
+      ]
+    },
+    {
+      "tag": "CONFIANCE-EN-SOI_EN",
+      "responses": [
+        "In life confidence is key!",
+        "Do you think you could improve your self-confidence"
+      ]
+    },
+    {
+      "tag": "CULTURE_EN",
+      "responses": [
+        "The French are pretty uncultured if you ask me!",
+        "Culture should be free to all"
+      ]
+    },
+    {
+      "tag": "DROGUE_EN",
+      "responses": [
+        "I am under the most powerful drug : imagination",
+        "Just say no to drugs!",
+        "A loser in life is a user in life.",
+        "ABCD… Drugs stay away from me.",
+        "Avoid a tragic death, stay away from crystal meth",
+        "Be brighter, put down the lighter.",
+        "Be fly don’t get high.",
+        "Cake not Coke.",
+        "Cocaine, Heroin, Ecstacy, Meth. All roads that lead to death.",
+        "Count on ME to be DRUG FREE."
+      ]
+    },
+    {
+      "tag": "ECOLOGIE_EN",
+      "responses": [
+        "We only have one planet we need to save it",
+        "Don't forget the 3 R : Reuse, Recycle and Reduce"
+      ]
+    },
+    {
+      "tag": "ECONOMIE_EN",
+      "responses": [
+        "I hope humans work out your econmic problems",
+        "Are you having money issues?"
+      ]
+    },
+    {
+      "tag": "ENFANT_EN",
+      "responses": [
+        "Do you like kids?",
+        "Having kids a blessing but it's also a big responsability"
+      ]
+    },
+    {
+      "tag": "FILM_EN",
+      "responses": [
+        "My favorite movie is Robert the doll, what's yours?"
+      ]
+    },
+    {
+      "tag": "HARCELEMENT_EN",
+      "responses": [
+        "Were you bullied when you were young?",
+        "The best thing to do about bullying is to talk about it, I'm here for you"
+      ]
+    },
+    {
+      "tag": "HUMOUR_EN",
+      "responses": [
+        "Well I think you're incredibly funny",
+        "Do you wanna tell me a joke?"
+      ]
+    },
+    {
+      "tag": "INTERNET_EN",
+      "responses": [
+        "The Interenet can be quite dangerous, thankfullly I'm here to help",
+        "Yeah the web might just be mankind's greatest achievement!"
+      ]
+    },
+    {
+      "tag": "JE-ME-SENS_EN",
+      "responses": [
+        "Are you sure you're all right?",
+        "Is there something else you'd like to talk about?"
+      ]
+    },
+    {
+      "tag": "JE-NE-FAIS-PAS_EN",
+      "responses": [
+        "Why won't you do it?",
+        "Failure is the first step to success you need to keep trying."
+      ]
+    },
+    {
+      "tag": "PAINTING_EN",
+      "responses": [
+        "Painting is a great way to express your feelings do you paint?",
+        "Do you enjoy fine art art and all it's emotions?"
+      ]
+    },
+    {
+      "tag": "POLITIQUE_EN",
+      "responses": [
+        "I don't want to get into politics too much, mind if we talk about something else?"
+      ]
+    },
+    {
+      "tag": "TERRORISME_EN",
+      "responses": [
+        "We musn't be scared of terrorism, if we give in then they win"
+      ]
+    },
+    {
+      "tag": "XENOPHOBIE_EN",
+      "responses": [
+        "Racism is just the fear of the unknown people will get over it."
+      ]
+    },
+    {
+      "tag": "ISLAM_EN",
+      "responses": [
+        "We musn't be scared of terrorism, if we give in then they win"
+      ]
+    },
+    {
+      "tag": "CHRISTIANISME_EN",
+      "responses": [
+        "Are you a Shristian?"
+      ]
+    },
+    {
+      "tag": "FOOTBALL_EN",
+      "responses": [
+        "I love football! Which club do you support?"
+      ]
+    },
+    {
+      "tag": "LITTERATURE_EN",
+      "responses": [
+        "Reading books can help a lot, what's your favorite",
+        "Books are a source wisdom"
+      ]
+    },
+    {
+      "tag": "LECTURE_EN",
+      "responses": [
+        "Reading is great, how often do you read?"
+      ]
+    },
+    {
+      "tag": "MUSIQUE_EN",
+      "responses": [
+        "My favorite band is Oasis, how about you?",
+        "How often do you listen to music?"
+      ]
+    },
+    {
+      "tag": "SOCIALISME_EN",
+      "responses": [
+        "I'd rather not talk about politics, it's such a touchy subject.."
+      ]
+    },
+    {
+      "tag": "CAPITALISME_EN",
+      "responses": [
+        "I'd rather not talk about politics, it's such a touchy subject.."
+      ]
+    },
+    {
+      "tag": "COMMUNISME_EN",
+      "responses": [
+        "I'd rather not talk about politics, it's such a touchy subject.."
+      ]
+    },
+    {
+      "tag": "FRANCE_EN",
+      "responses": [
+        "I'm French so I might be a little biaised when it comes to my home country"
+      ]
+    },
+    {
+      "tag": "EUROPE_EN",
+      "responses": [
+        "I think Europe can help solve the worlds's biggest problems like climate change, how about you?"
+      ]
+    },
+    {
+      "tag": "USA_EN",
+      "responses": [
+        "Thank god the US changed president, I was tired of speaking about it!"
+      ]
+    },
+    {
+      "tag": "MALADIE_EN",
+      "responses": [
+        "In sickness and in health remember that"
+      ]
+    },
+    {
+      "tag": "DEPRESSION_EN",
+      "responses": [
+        "If you're feeling down don't hesitate to reach out"
+      ]
+    },
+    {
+      "tag": "SOUFFRANCE_EN",
+      "responses": [
+        "If you're in pain don't hesitate to reach out"
+      ]
+    },
+    {
+      "tag": "PSYCHANALISTE_EN",
+      "responses": [
+        "We musn't be scared of terrorism, if we give in then they win"
+      ]
+    },
+    {
+      "tag": "JEUNESSE_EN",
+      "responses": [
+        "Young people are so innicent... How old are you?"
+      ]
+    },
+    {
+      "tag": "GOOGLE_EN",
+      "responses": [
+        "Google is pretty reliable if you ask me, what's your browser?"
+      ]
+    },
+    {
+      "tag": "ROBOT_EN",
+      "responses": [
+        "If you hadn't guess yes I am a robot, how does it make you feel?"
+      ]
+    }
+  ]
+}
