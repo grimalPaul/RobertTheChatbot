@@ -2,6 +2,7 @@
 
 Contributors :
 
+- Professor of Information and Communication Sciences Serge Bouchardon
 - Grimal Paul
 - Penverne Leonard
 - Vast Mathias
